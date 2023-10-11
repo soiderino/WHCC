@@ -1,1 +1,1 @@
-# Windows-Hilight-Color-Changer
+# WHCC
