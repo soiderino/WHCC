@@ -1,2 +1,3 @@
 # WHCC
-![image](https://github.com/soiderino/Windows-Hilight-Color-Changer/assets/57572890/4e0250ad-3b07-4c11-bea1-3d2eedf7f1ad)
+![image](https://github.com/soiderino/Windows-Hilight-Color-Changer/assets/57572890/6834c05f-a203-4da4-ad44-78958de8ea84)
+
