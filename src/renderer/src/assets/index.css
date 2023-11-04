@@ -1,0 +1,122 @@
+@import url('https://rsms.me/inter/inter.css');
+
+* {
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  overflow: hidden;
+  outline: none;
+}
+
+body {
+  font-size: 15px;
+  line-height: 1.5;
+  border-radius: 0.4rem;
+  color: #fff;
+  background-color: #222;
+  -webkit-app-region: drag;
+}
+
+span {
+  font-size: 13px;
+}
+
+section {
+  display: flex;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.hilightBoxColor,
+.hotTrackingBoxColor {
+  background-color: #444;
+  border-radius: 0.6rem;
+  height: 60px;
+  width: 60px;
+}
+
+section > .content {
+  display: flex;
+  justify-content: center;
+  line-height: 1.6;
+  flex-direction: column;
+  margin-left: 0.8rem;
+  font-weight: 500;
+}
+
+section > .content .color {
+  opacity: 0.5;
+}
+
+#buttons {
+  display: flex;
+  margin: 0.1rem 0 0.5rem 0;
+  justify-content: space-between;
+}
+
+#buttons > #changeColor {
+  width: 100%;
+  margin-right: 0.5rem;
+}
+#buttons > #resetColor {
+  width: 20%;
+  margin-right: 0.5rem;
+}
+#buttons > #saveColor {
+  width: 20%;
+}
+
+#buttons > #changeColor svg {
+  margin-right: 0.3rem;
+  color: #ccc;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  background-color: #333;
+  color: #eee;
+  transition: opacity 0.3s ease-in-out;
+  -webkit-app-region: no-drag;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/* 
+
+  Color Picker Style (Fixed) 
+  this is the worst color picker i've ever seen
+
+  developer of colorpicker was on drugs D:
+
+*/
+
+.pcr-app {
+  background-color: #222 !important;
+}
+
+.pcr-app .pcr-selection .pcr-picker {
+  height: 6px !important;
+  width: 6px !important;
+}
+
+/* WTF IS THIS SHIT? */
+.pcr-app[data-theme='nano'] .pcr-selection .pcr-color-preview .pcr-current-color::before {
+  background: none !important;
+  background-size: none !important;
+}
+
+.pcr-app[data-theme='nano'] .pcr-selection .pcr-color-palette .pcr-palette {
+  border-radius: none !important;
+}
